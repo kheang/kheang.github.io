@@ -1,0 +1,14 @@
+
+body {
+  background-color: #338FBD;
+  text-align:center;
+}
+
+div.main {
+  height: 100%;
+}
+
+h1.main {
+  color: white;
+  font-family: 'Source Serif Pro', serif;
+}
