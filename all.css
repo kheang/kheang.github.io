@@ -25,6 +25,7 @@ ul {
 
 li {
   display: inline-block;
+  font-family: verdana, sans-serif;
   padding: 5px;
 }
 
@@ -35,4 +36,8 @@ a {
 
 a:hover {
   color: #CCCCCC;
+}
+
+a:visited {
+  color: white;
 }
