@@ -1,6 +1,8 @@
 
 html, body {
   background-color: #3C688C;
+  font-family: verdana, sans-serif;
+  font-weight: 300;
   height: 100%;
   text-align:center;
   margin: 0;
@@ -25,7 +27,7 @@ ul {
 
 li {
   display: inline-block;
-  font-family: verdana, sans-serif;
+  margin-top: 30px;
   padding: 5px;
 }
 
