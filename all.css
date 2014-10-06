@@ -1,14 +1,38 @@
 
-body {
-  background-color: #338FBD;
+html, body {
+  background-color: #3C688C;
+  height: 100%;
   text-align:center;
+  margin: 0;
+  padding: 0;
 }
 
 div.main {
   height: 100%;
+  color: white;
 }
 
 h1.main {
   color: white;
   font-family: 'Source Serif Pro', serif;
+  letter-spacing: 2px;
+  padding-top: 100px;
+}
+
+ul {
+  display: inline;
+}
+
+li {
+  display: inline-block;
+  padding: 5px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #CCCCCC;
 }
