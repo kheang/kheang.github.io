@@ -1,8 +1,8 @@
-
 html, body {
-  background-color: #3C688C;
+  background-color: #5190b8;
   font-family: verdana, sans-serif;
   font-weight: 300;
+  font-size: 15px;
   height: 100%;
   text-align:center;
   margin: 0;
@@ -16,18 +16,29 @@ div.main {
 
 h1.main {
   color: white;
-  font-family: 'Source Serif Pro', serif;
+  font-family: Rockwell, serif;
   letter-spacing: 2px;
+  margin: 5px;
   padding-top: 100px;
+}
+
+h2.main {
+  color: #183c52;
+  font-family: Rockwell;
+  font-size: 20px;
+  margin-top: 5px;
+  padding-right: 10px;
 }
 
 ul {
   display: inline;
+  color: #183c52;
 }
 
 li {
   display: inline-block;
   margin-top: 30px;
+  opacity: .9999;
   padding: 5px;
 }
 
@@ -36,8 +47,9 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: #CCCCCC;
+a:hover,a:visited:hover {
+  color: #183c52;
+  text-decoration: none;
 }
 
 a:visited {
