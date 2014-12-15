@@ -11,6 +11,7 @@
   height: 100vh;
   text-align: center;
   font-family: 'Raleway', sans-serif;
+}
 
 .content-pane {
   color: #333333;
@@ -45,7 +46,7 @@ a {
 a:hover {
   color: #000000;
 }
-}
+
 
 .profile-image {
   margin-top: 3em;
@@ -60,9 +61,6 @@ a:hover {
 
 .links {
   margin-top: 2em;
-  text-align: center;
-
-@media screen and (max-width: 40em) {
   text-align: center;
 }
 
@@ -82,5 +80,4 @@ a {
 
 a:hover {
   color: #333333;
-}
 }
