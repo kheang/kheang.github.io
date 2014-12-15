@@ -1,57 +1,86 @@
-html, body {
-  background-color: #5190b8;
-  font-family: verdana, sans-serif;
-  font-weight: 300;
-  font-size: 15px;
-  height: 100%;
-  text-align:center;
+@import "font-awesome-sprockets";
+@import "font-awesome";
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,800);
+
+.splash {
+  background-size: cover;
+  height: 100vh;
+}
+
+.splash-fill {
+  height: 100vh;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+
+.content-pane {
+  color: #333333;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+h1 {
+  margin-top: .5em;
+  margin-bottom: 0;
+  text-align: center;
+  color: #666666;
+}
+
+h2 {
   margin: 0;
-  padding: 0;
+  text-align: center;
+  color: #000000;
 }
 
-div.main {
-  height: 100%;
-  color: white;
-}
-
-h1.main {
-  color: white;
-  font-family: Rockwell, serif;
-  letter-spacing: 2px;
-  margin: 5px;
-  padding-top: 100px;
-}
-
-h2.main {
-  color: #183c52;
-  font-family: Rockwell;
-  font-size: 20px;
-  margin-top: 5px;
-  padding-right: 10px;
-}
-
-ul {
-  display: inline;
-  color: #183c52;
-}
-
-li {
-  display: inline-block;
-  margin-top: 30px;
-  opacity: .9999;
-  padding: 5px;
+p {
+  margin: 2em;
+  line-height: 1.5em;
 }
 
 a {
-  color: white;
+  font-weight: 600;
   text-decoration: none;
+  color: #333333;
 }
 
-a:hover,a:visited:hover {
-  color: #183c52;
-  text-decoration: none;
+a:hover {
+  color: #000000;
+}
 }
 
-a:visited {
-  color: white;
+.profile-image {
+  margin-top: 3em;
+  width: 6em;
+  height: 6em;
+  background-image: url('/images/kheang.jpg');
+  background-size: 6em;
+  border-radius: 3em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.links {
+  margin-top: 2em;
+  text-align: center;
+
+@media screen and (max-width: 40em) {
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+a {
+  color: #666666;
+}
+
+a:hover {
+  color: #333333;
+}
 }
