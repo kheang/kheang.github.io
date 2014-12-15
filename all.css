@@ -140,8 +140,24 @@ p.portfolio-desc {
   border: 1px solid #999999;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 800px) {
   .splash-fill {
     padding: 1em;
+  }
+
+  .portfolio-image {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .screen {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .portfolio-desc {
+    margin-left: 0;
+    width: 100%;
   }
 }
