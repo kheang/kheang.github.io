@@ -132,10 +132,16 @@ p.portfolio-desc {
 
 .screen {
   margin-bottom: 1em;
-  max-width: 18em;
+  width: 100%;
   border: 1px solid #CCCCCC;
 }
 
 .screen:hover {
   border: 1px solid #999999;
+}
+
+@media screen and (max-width: 360px) {
+  .splash-fill {
+    padding: 1em;
+  }
 }
