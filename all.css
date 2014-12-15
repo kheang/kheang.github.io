@@ -1,6 +1,5 @@
-@import "font-awesome-sprockets";
-@import "font-awesome";
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,800);
+
+
 
 .splash {
   background-size: cover;
@@ -52,7 +51,7 @@ a:hover {
   margin-top: 3em;
   width: 6em;
   height: 6em;
-  background-image: url('/images/kheang.jpg');
+  background-image: url('kheang.jpg');
   background-size: 6em;
   border-radius: 3em;
   margin-left: auto;
