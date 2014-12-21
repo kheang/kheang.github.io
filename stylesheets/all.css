@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400|Nunito:400);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400|Nunito:400);
 /* line 8, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
 html {
   font-size: 16px; }
@@ -31,7 +32,7 @@ p {
 /* line 37, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
 .pane {
   margin: 0;
-  height: 100vh;
+  min-height: 100vh;
   text-align: center; }
 
 /* line 43, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
