@@ -58,7 +58,8 @@ a:hover {
 .profile-image {
   width: 6em;
   height: 6em;
-  background-image: url('kheang.jpg');
+  background-color: #415566;
+  /*background-image: url('source/images/kheang.jpg');*/
   background-size: 6em;
   border-radius: 3em;
   margin-left: auto;

@@ -15,3 +15,7 @@ gem "tzinfo-data", platforms: [:mswin, :mingw]
 
 gem 'font-awesome-sass', '~> 4.2.0'
 gem "sass"
+
+gem "jquery-middleman"
+
+gem 'middleman-deploy', '~> 1.0'

@@ -1,86 +1,354 @@
-@import "font-awesome-sprockets";
-@import "font-awesome";
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,800);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400|Nunito:400);
+$blue: #415566;
+$splash: #556270;
+$secondary: #3AADC7;
+$about: #ffffff;
+$portfolio: #BAC5D1;
 
-.splash {
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Source Sans Pro', Avenir, sans-serif;
+  color: #333333;
+}
+
+h1 {
+  display: inline;
+  font-size: 3rem;
+  font-weight: 400;
+  font-color: $splash;
+}
+
+h2 {
+  margin: .2rem 0 .2rem 0;
+  font-size: 1.3rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.pane {
+  margin: 0;
+  height: 100vh;
+  text-align: center;
+}
+
+.pane-inner {
+  text-align: center;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+  opacity: 1;
+}
+
+.pane-inner-wide {
+  text-align: center;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+  opacity: 1;
+}
+
+.splash-outer {
+  background:
+    linear-gradient(
+                    rgba(85,98,112, 1),
+                    rgba(85,98,112, 0.8)
+    ),
+    url(/images/splash.jpg);
+
+  background-position: center center;
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
+  background-color: $splash;
+
+  width: 100vw;
   height: 100vh;
 }
 
-.splash-fill {
-  height: 100vh;
+.splash {
   text-align: center;
-  font-family: 'Raleway', sans-serif;
-
-  .content-pane {
-    color: #333333;
-    margin-left: 20%;
-    margin-right: 20%;
-  }
 
   h1 {
-    margin-top: .5em;
-    margin-bottom: 0;
-    text-align: center;
-    color: #666666;
+    display: block;
+    color: #ffffff;
   }
 
   h2 {
-    margin: 0;
-    text-align: center;
-    color: #000000;
-  }
-
-  p {
-    margin: 2em;
-    line-height: 1.5em;
+    color: #ffffff;
+    opacity: .8;
   }
 
   a {
-    font-weight: 600;
+    color: #ffffff;
+  }
+
+  a.hover {
+    color: #ffff00;
+  }
+}
+
+.more {
+  width: 100%;
+  position: absolute;
+  bottom: .5em;
+  font-size: 1.5em;
+}
+
+ul.buttons {
+  margin: 3rem;
+  padding: 0;
+  font-size: 1rem;
+
+  li {
+    margin: .5rem;
+    display: inline;
+  }
+
+  a {
+    width: 100%;
+    height: 100%;
+    padding: .8rem 1rem .8rem 1rem;
+    color: #ffffff;
     text-decoration: none;
-    color: #333333;
+    border: 2px solid $secondary;
+    letter-spacing: 1px;
   }
 
   a:hover {
-    color: #000000;
+    background-color: $secondary;
+    color: #ffffff;
+  }
+}
+
+.about {
+  background-color: $about;
+
+  h1 {
+    border-bottom: .2rem solid $secondary;
   }
 }
 
 .profile-image {
-  margin-top: 3em;
-  width: 6em;
-  height: 6em;
+  width: 6rem;
+  height: 6rem;
   background-image: url('/images/kheang.jpg');
-  background-size: 6em;
-  border-radius: 3em;
-  margin-left: auto;
-  margin-right: auto;
+  background-size: 6rem;
+  border-radius: 3rem;
+  margin: 2.5rem auto 2.5rem auto;
 }
 
-.links {
-  margin-top: 2em;
-  text-align: center;
+.portfolio {
+  background-color: $portfolio;
 
-  @media screen and (max-width: 40em) {
-    text-align: center;
+  h1 {
+    border-bottom: .2rem solid $secondary;
+    margin-bottom: 10rem;
+    color: #000000;
+  }
+}
+
+.portfolio-pane {
+  width: 30rem;
+  height: 17rem;
+  background-color: $secondary;
+  display: inline-block;
+  color: #ffffff;
+}
+
+.portfolio-pane:hover .portfolio-desc{
+  display: block;
+  float: left;
+}
+
+.portfolio-pane:hover .portfolio-image{
+  display: none;
+}
+
+.portfolio-image {
+  width: 100%;
+  height: 100%;
+}
+
+.portfolio-desc {
+  display: none;
+
+  h2 {
+    font-weight: 400;
+  }
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  p {
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.4rem;
+  }
+
+  padding: 1rem;
+}
+
+.contact {
+  background-color: $splash;
+  padding: 4rem;
+  text-align: center;
+  font-weight: 300;
+
+  p {
+    color: #ffffff;
+    margin-bottom: 1rem;
   }
 
   ul {
+    display: inline;
+    margin: 0;
     padding: 0;
   }
 
   li {
+    list-style-type: none;
     display: inline;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin: 0 .5rem 0 .5rem;
+    padding: 0;
   }
 
   a {
-    color: #666666;
+    font-size: 2rem;
+    color: #ffffff;
+    opacity: .8;
+    text-decoration: none;
+    padding: 0;
   }
 
   a:hover {
-    color: #333333;
+    opacity: 1;
+  }
+}
+
+.nav {
+  width: 97%;
+  position: fixed;
+  margin: 0;
+  padding: 1.5%;
+  text-align: right;
+  background-color: $splash;
+  color: #ffffff;
+  z-index: 1;
+
+  h1 {
+    float: left;
+    font-size: 1.7rem;
+    line-height: 1.7rem;
+    letter-spacing: 1px;
+    border: .2rem solid $secondary;
+    padding: .2rem;
+    margin: 0;
+  }
+
+  ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 .5rem 0 .5rem;
+  }
+
+  a {
+    font-size: 1.7rem;
+    color: #ffffff;
+    opacity: .8;
+    text-decoration: none;
+  }
+
+  a:hover {
+    opacity: 1;
+  }
+
+  .left-links {
+    float: left;
+
+    li {
+      padding-top: .3rem;
+      margin-left: 1rem;
+      margin-right: 0;
+    }
+
+    a {
+      font-size: 1.2rem;
+      line-height: 2.4rem;
+    }
+  }
+}
+
+@media screen and (max-width: 1203px) {
+  .portfolio-pane {
+    width: 40rem;
+    height: 22rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 14px;
+  }
+
+  .pane-inner {
+    max-width: 70%;
+  }
+
+  .portfolio-pane {
+    width: 30rem;
+    height: 17rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 12px;
+  }
+
+  .pane-inner {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 12px;
+  }
+
+  .pane-inner {
+    max-width: 90%;
+  }
+
+  .pane-inner-wide{
+    max-width: 90%;
+  }
+
+  .portfolio-pane {
+    width: 26rem;
+    height: 15rem;
   }
 }
