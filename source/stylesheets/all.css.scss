@@ -302,10 +302,9 @@ ul.buttons {
   }
 }
 
-@media screen and (max-width: 1203px) {
-  .portfolio-pane {
-    width: 40rem;
-    height: 22rem;
+@media screen and (min-width: 1920px) {
+  html {
+    font-size: 20px;
   }
 }
 
@@ -316,11 +315,6 @@ ul.buttons {
 
   .pane-inner {
     max-width: 70%;
-  }
-
-  .portfolio-pane {
-    width: 30rem;
-    height: 17rem;
   }
 }
 
@@ -334,7 +328,7 @@ ul.buttons {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 360px) {
   html {
     font-size: 12px;
   }
@@ -348,14 +342,13 @@ ul.buttons {
   }
 
   .portfolio-pane {
-    width: 26rem;
+    width: 25rem;
     height: 15rem;
   }
 }
 
-@media screen and (min-width: 1920px) {
-  .portfolio-pane {
-    width: 40rem;
-    height: 22rem;
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 11px;
   }
 }
