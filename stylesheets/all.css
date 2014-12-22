@@ -306,7 +306,7 @@ ul.buttons {
   .portfolio-pane {
     width: 26rem;
     height: 15rem; } }
-@media screen and (min-width: 1281px) {
+@media screen and (min-width: 1920px) {
   /* line 357, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
   .portfolio-pane {
     width: 40rem;
