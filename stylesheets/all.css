@@ -1,40 +1,42 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400|Nunito:400);
 /* line 8, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
 html {
-  font-size: 16px; }
+  font-size: 16px;
+  height: 100%; }
 
-/* line 12, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+/* line 13, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
 body {
   font-family: 'Source Sans Pro', Avenir, sans-serif;
-  color: #333333; }
+  color: #333333;
+  height: 100%; }
 
-/* line 17, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+/* line 19, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
 h1 {
   display: inline;
   font-size: 3rem;
   font-weight: 400;
   font-color: #556270; }
 
-/* line 24, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+/* line 26, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
 h2 {
   margin: .2rem 0 .2rem 0;
   font-size: 1.3rem;
   font-weight: 300;
   letter-spacing: 1px; }
 
-/* line 31, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+/* line 33, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
 p {
   font-size: 1.2rem;
   line-height: 1.5rem;
   margin-bottom: 3rem; }
 
-/* line 37, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+/* line 39, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
 .pane {
   margin: 0;
-  min-height: 100vh;
+  height: 100%;
   text-align: center; }
 
-/* line 43, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+/* line 45, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
 .pane-inner {
   text-align: center;
   max-width: 60%;
@@ -42,9 +44,10 @@ p {
   margin-right: auto;
   padding-top: 6rem;
   padding-bottom: 6rem;
-  opacity: 1; }
+  opacity: 1;
+  height: 100%; }
 
-/* line 53, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+/* line 56, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
 .pane-inner-wide {
   text-align: center;
   max-width: 80%;
@@ -52,52 +55,55 @@ p {
   margin-right: auto;
   padding-top: 6rem;
   padding-bottom: 6rem;
-  opacity: 1; }
+  opacity: 1;
+  height: 100%; }
 
-/* line 63, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+/* line 67, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
 .splash-outer {
   background: linear-gradient(#556270, rgba(85, 98, 112, 0.8)), url(/images/splash.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: #556270; }
+  background-color: #556270;
+  height: 100%; }
 
-/* line 78, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+/* line 83, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
 .splash {
-  text-align: center; }
-  /* line 81, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+  text-align: center;
+  height: 100%; }
+  /* line 86, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
   .splash h1 {
     display: block;
     color: #ffffff; }
-  /* line 86, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+  /* line 91, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
   .splash h2 {
     color: #ffffff;
     opacity: .8; }
-  /* line 91, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+  /* line 96, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
   .splash a {
     color: #ffffff; }
-  /* line 95, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+  /* line 100, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
   .splash a.hover {
     color: #ffff00; }
 
-/* line 100, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+/* line 106, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
 .more {
   width: 100%;
   position: absolute;
   bottom: .5em;
   font-size: 1.5em; }
 
-/* line 107, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+/* line 113, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
 ul.buttons {
   margin: 3rem;
   padding: 0;
   font-size: 1rem; }
-  /* line 112, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+  /* line 118, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
   ul.buttons li {
     margin: .5rem;
     display: inline; }
-  /* line 117, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+  /* line 123, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
   ul.buttons a {
     width: 100%;
     height: 100%;
@@ -106,19 +112,19 @@ ul.buttons {
     text-decoration: none;
     border: 2px solid #3AADC7;
     letter-spacing: 1px; }
-  /* line 127, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+  /* line 133, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
   ul.buttons a:hover {
     background-color: #3AADC7;
     color: #ffffff; }
 
-/* line 133, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+/* line 139, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
 .about {
   background-color: #ffffff; }
-  /* line 136, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+  /* line 142, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
   .about h1 {
     border-bottom: 0.2rem solid #3AADC7; }
 
-/* line 141, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+/* line 147, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
 .profile-image {
   width: 6rem;
   height: 6rem;
@@ -127,16 +133,16 @@ ul.buttons {
   border-radius: 3rem;
   margin: 2.5rem auto 2.5rem auto; }
 
-/* line 150, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+/* line 156, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
 .portfolio {
   background-color: #BAC5D1; }
-  /* line 153, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+  /* line 159, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
   .portfolio h1 {
     border-bottom: 0.2rem solid #3AADC7;
     margin-bottom: 10rem;
     color: #000000; }
 
-/* line 160, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+/* line 166, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
 .portfolio-pane {
   width: 30rem;
   height: 17rem;
@@ -144,32 +150,32 @@ ul.buttons {
   display: inline-block;
   color: #ffffff; }
 
-/* line 168, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+/* line 174, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
 .portfolio-pane:hover .portfolio-desc {
   display: block;
   float: left; }
 
-/* line 173, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+/* line 179, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
 .portfolio-pane:hover .portfolio-image {
   display: none; }
 
-/* line 177, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+/* line 183, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
 .portfolio-image {
   width: 100%;
   height: 100%; }
 
-/* line 182, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+/* line 188, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
 .portfolio-desc {
   display: none;
   padding: 1rem; }
-  /* line 185, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+  /* line 191, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
   .portfolio-desc h2 {
     font-weight: 400; }
-  /* line 189, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+  /* line 195, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
   .portfolio-desc a {
     color: #ffffff;
     text-decoration: none; }
-  /* line 194, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+  /* line 200, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
   .portfolio-desc p {
     margin-bottom: 0;
     padding: 0;
@@ -177,39 +183,39 @@ ul.buttons {
     font-weight: 300;
     line-height: 1.4rem; }
 
-/* line 205, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+/* line 211, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
 .contact {
   background-color: #556270;
   padding: 4rem;
   text-align: center;
   font-weight: 300; }
-  /* line 211, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+  /* line 217, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
   .contact p {
     color: #ffffff;
     margin-bottom: 1rem; }
-  /* line 216, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+  /* line 222, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
   .contact ul {
     display: inline;
     margin: 0;
     padding: 0; }
-  /* line 222, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+  /* line 228, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
   .contact li {
     list-style-type: none;
     display: inline;
     margin: 0 .5rem 0 .5rem;
     padding: 0; }
-  /* line 229, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+  /* line 235, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
   .contact a {
     font-size: 2rem;
     color: #ffffff;
     opacity: .8;
     text-decoration: none;
     padding: 0; }
-  /* line 237, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+  /* line 243, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
   .contact a:hover {
     opacity: 1; }
 
-/* line 242, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+/* line 248, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
 .nav {
   width: 97%;
   position: fixed;
@@ -219,7 +225,7 @@ ul.buttons {
   background-color: #556270;
   color: #ffffff;
   z-index: 1; }
-  /* line 252, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+  /* line 258, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
   .nav h1 {
     float: left;
     font-size: 1.7rem;
@@ -228,78 +234,76 @@ ul.buttons {
     border: 0.2rem solid #3AADC7;
     padding: .2rem;
     margin: 0; }
-  /* line 262, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+  /* line 268, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
   .nav ul {
     display: inline;
     margin: 0;
     padding: 0; }
-  /* line 268, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+  /* line 274, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
   .nav li {
     list-style-type: none;
     display: inline;
     margin: 0 .5rem 0 .5rem; }
-  /* line 274, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+  /* line 280, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
   .nav a {
     font-size: 1.7rem;
     color: #ffffff;
     opacity: .8;
     text-decoration: none; }
-  /* line 281, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+  /* line 287, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
   .nav a:hover {
     opacity: 1; }
-  /* line 285, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+  /* line 291, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
   .nav .left-links {
     float: left; }
-    /* line 288, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+    /* line 294, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
     .nav .left-links li {
       padding-top: .3rem;
       margin-left: 1rem;
       margin-right: 0; }
-    /* line 294, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+    /* line 300, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
     .nav .left-links a {
       font-size: 1.2rem;
       line-height: 2.4rem; }
 
 @media screen and (min-width: 1920px) {
-  /* line 302, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+  /* line 308, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
   html {
     font-size: 20px; } }
 @media screen and (max-width: 800px) {
-  /* line 308, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+  /* line 314, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
   html {
     font-size: 14px; }
 
-  /* line 312, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+  /* line 318, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
   .pane-inner {
     max-width: 70%; } }
 @media screen and (max-width: 600px) {
-  /* line 318, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+  /* line 324, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
   html {
     font-size: 12px; }
 
-  /* line 322, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+  /* line 328, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
   .pane-inner {
     max-width: 80%; } }
 @media screen and (max-width: 360px) {
-  /* line 328, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+  /* line 334, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
   html {
     font-size: 12px; }
 
-  /* line 332, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+  /* line 338, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
   .pane-inner {
     max-width: 90%; }
 
-  /* line 336, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+  /* line 342, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
   .pane-inner-wide {
     max-width: 90%; }
 
-  /* line 340, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+  /* line 346, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
   .portfolio-pane {
     width: 25rem;
     height: 15rem; } }
 @media screen and (max-width: 320px) {
-  /* line 347, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
+  /* line 353, /Users/kheanglim/Documents/kheang/source/stylesheets/all.css.scss */
   html {
     font-size: 11px; } }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  min-height: 0; }
