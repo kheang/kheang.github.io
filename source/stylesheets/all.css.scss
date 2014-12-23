@@ -203,6 +203,7 @@ ul.buttons {
     font-size: 1rem;
     font-weight: 300;
     line-height: 1.4rem;
+    text-align: left;
   }
 
   padding: 1rem;
@@ -325,6 +326,11 @@ ul.buttons {
   .pane-inner {
     max-width: 80%;
   }
+
+  .portfolio-pane {
+    width: 25rem;
+    height: 14rem;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -339,11 +345,6 @@ ul.buttons {
 
   .pane-inner-wide {
     max-width: 85%;
-  }
-
-  .portfolio-pane {
-    width: 25rem;
-    height: 14rem;
   }
 
   .pane {
