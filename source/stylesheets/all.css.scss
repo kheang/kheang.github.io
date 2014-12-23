@@ -25,20 +25,19 @@ h1 {
 
 h2 {
   margin: .2rem 0 .2rem 0;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 300;
   letter-spacing: 1px;
 }
 
 p {
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-  margin-bottom: 3rem;
+  line-height: 2rem;
+  padding-bottom: .5rem;
 }
 
 .pane {
   margin: 0;
-  height: 100%;
+  min-height: 100%;
   text-align: center;
 }
 
@@ -50,7 +49,6 @@ p {
   padding-top: 6rem;
   padding-bottom: 6rem;
   opacity: 1;
-  height: 100%;
 }
 
 .pane-inner-wide {
@@ -61,7 +59,6 @@ p {
   padding-top: 6rem;
   padding-bottom: 6rem;
   opacity: 1;
-  height: 100%;
 }
 
 .splash-outer {
@@ -77,7 +74,7 @@ p {
   background-attachment: fixed;
   background-size: cover;
   background-color: $splash;
-  height: 100%;
+  min-height: 100%;
 }
 
 .splash {
@@ -100,7 +97,6 @@ p {
   a.hover {
     color: #ffff00;
   }
-  height: 100%;
 }
 
 .more {
@@ -141,6 +137,10 @@ ul.buttons {
 
   h1 {
     border-bottom: .2rem solid $secondary;
+  }
+
+  p {
+    font-size: 1.2rem;
   }
 }
 
@@ -216,6 +216,7 @@ ul.buttons {
 
   p {
     color: #ffffff;
+    font-size: 1.2rem;
     margin-bottom: 1rem;
   }
 
@@ -304,7 +305,7 @@ ul.buttons {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1824px) {
   html {
     font-size: 20px;
   }
@@ -332,7 +333,7 @@ ul.buttons {
 
 @media screen and (max-width: 360px) {
   html {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .pane-inner {
@@ -345,12 +346,57 @@ ul.buttons {
 
   .portfolio-pane {
     width: 25rem;
-    height: 15rem;
+    height: 14rem;
+  }
+
+  .pane {
+    min-height: 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   html {
     font-size: 11px;
+  }
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 640px) {
+  html, body {
+    height: 0;
+  }
+
+  .more {
+    visibility: hidden;
+  }
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+  html, body {
+    height: 0;
+  }
+
+  .more {
+    visibility: hidden;
+  }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+  html, body {
+    height: 0;
+  }
+
+  .splash-outer {
+    background-position: center top;
+    background-size: auto;
+  }
+
+  .more {
+    visibility: hidden;
   }
 }
