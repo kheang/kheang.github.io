@@ -45,8 +45,8 @@ p {
   max-width: 60%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 15vh;
-  padding-bottom: 15vh;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   opacity: 1;
 }
 
@@ -55,8 +55,8 @@ p {
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 15vh;
-  padding-bottom: 15vh;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   opacity: 1;
 }
 
@@ -69,14 +69,10 @@ p {
     url(/images/splash.jpg);
 
   background-position: center center;
-  background-size: 100vw;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-color: $splash;
-
-  width: 100vw;
-  height: 100vh;
 }
 
 .splash {
@@ -351,4 +347,8 @@ ul.buttons {
   html {
     font-size: 11px;
   }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  min-height: 100%;
 }
