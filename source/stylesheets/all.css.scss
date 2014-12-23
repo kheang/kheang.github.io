@@ -322,12 +322,36 @@ ul.buttons {
 }
 
 @media screen and (max-width: 600px) {
-  html {
-    font-size: 12px;
+  .pane-inner {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  html, body {
+    font-size: 13px;
+    height: 0;
   }
 
   .pane-inner {
-    max-width: 80%;
+    max-width: 85%;
+  }
+
+  .pane-inner-wide {
+    max-width: 85%;
+  }
+
+  .portfolio-pane {
+    width: 25rem;
+    height: 14rem;
+  }
+
+  .pane {
+    min-height: 0;
+  }
+
+  .more {
+    visibility: hidden;
   }
 }
 
@@ -342,11 +366,6 @@ ul.buttons {
 
   .pane-inner-wide{
     max-width: 90%;
-  }
-
-  .portfolio-pane {
-    width: 25rem;
-    height: 14rem;
   }
 
   .pane {
